@@ -1,26 +1,26 @@
 var obj = {
-  nome: "Matheus",
-  idade: 29,
-  profissao: "Programador",
-  estaTrabalhando: true,
+  name: "Matheus",
+  age: 29,
+  job: "programmer",
+  thisWorking: true,
 };
 
 console.log(obj);
 
-console.log(typeof obj);
+console.log(typeof obj);//Object
 
-console.log(obj.nome);
-console.log(obj.idade);
-console.log(obj.profissao);
+console.log(obj.name);
+console.log(obj.age);
+console.log(obj.job);
 
-console.log("O meu nome é " + obj.nome);
+console.log("My name is " + obj.name);
 
-obj.nome = "Pedro";
+obj.name = "Pedro";
 
-console.log(obj.nome);
+console.log(obj.name); //Pedro, the property of const object can also be modified.
 
 console.log(obj);
 
-obj.graduacao = true;
+obj.graduation = true;
 
 console.log(obj);
