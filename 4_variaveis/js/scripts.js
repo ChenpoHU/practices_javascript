@@ -34,10 +34,10 @@ var myLastName = "Battisti"; // global or function scope
 console.log(myLastName);
 
 let testing = 1; // block-scope, e.g., if, else
-const ola = 2; // block-scope, will not change
+const hello = 2; // block-scope, will not change
 
 console.log(testing);
-console.log(ola);
+console.log(hello);
 
 var myName;
 
