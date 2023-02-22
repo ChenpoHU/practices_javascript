@@ -1,19 +1,19 @@
-var numero = 5;
+var number = 5;
 
-console.log(numero);
-console.log(typeof numero);
+console.log(number);
+console.log(typeof number);
 
 var float = 5.32;
 
 console.log(float);
-console.log(typeof float);
+console.log(typeof float); //number
 
-var textoComNumero = '523';
+var textWithNumber = '523';
 
-console.log(textoComNumero);
-console.log(typeof textoComNumero);
+console.log(textWithNumber);
+console.log(typeof textWithNumber); //string
 
 console.log(NaN);
-console.log(typeof NaN);
+console.log(typeof NaN); //number
 console.log(typeof +Infinity);
 console.log(typeof -Infinity);
