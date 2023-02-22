@@ -1,1 +1,1 @@
-console.log("Este é o script do body");
+console.log("This is a body script");
