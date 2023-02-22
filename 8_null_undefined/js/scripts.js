@@ -1,15 +1,15 @@
 // Hoisting - içamento
-console.log(sobrenome);
-console.log(numero);
+console.log(lastName); //undefined
+console.log(number);
 
-var nome = null;
-var sobrenome = "Battisti";
+var name = null;
+var lastName = "Battisti";
 
-console.log(nome);
-console.log(sobrenome);
+console.log(name);//null
+console.log(lastName);
 
-nome = "Matheus";
+name = "Matheus";
 
-console.log(nome);
+console.log(name); //Matheus
 
-var numero = 5;
+var number = 5;
