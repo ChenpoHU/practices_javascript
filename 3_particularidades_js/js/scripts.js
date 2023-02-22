@@ -1,24 +1,19 @@
-console.log("Primeiro");
+console.log("First");
 
-console.log("Último");
+console.log("Last");
 
-console.log("Mais um console.log");
+console.log("One more console.log");
 
-// Declara uma variável
+// Declare a variable
 var a = 1;
 
-a = 'teste';
+a = 'test';
 
-console.log(a);
+console.log(a); // test
 
-// Este é um comentário
+// This is a comment
 
 /*
-  Este
-  é
-  um
-  comentário
-  de
-  múltiplas
-  linhas
+  This 
+  is multi-line comment
 */
