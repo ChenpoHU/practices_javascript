@@ -1,14 +1,14 @@
-var idade = 16;
-var idadeMinima = 18;
+var age = 16;
+var minimumAge = 18;
 
-console.log("Antes do if");
+console.log("Before if");
 
-if(idade > idadeMinima) {
-  console.log("Pode fazer a carteira de habilitação");
+if(age > minimumAGe) {
+  console.log("You can make your driver's license");
 }
 
 if(idade > 15) {
-  console.log("Precisa esperar 3 anos ainda");
+  console.log("You need to wait 3 years still");
 }
 
-console.log("Depois do if");
+console.log("After if");
