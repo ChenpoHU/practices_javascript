@@ -1,26 +1,26 @@
-var nome = "Matheus";
-var sobrenome = "Battisti";
+var name = "Matheus";
+var lastName = "Battisti";
 
-var nomeCompleto = nome + " " + sobrenome;
+var fullName = name + " " + lastName;
 
-console.log(nome);
-console.log(typeof nome);
+console.log(name);
+console.log(typeof name);
 
 console.log(typeof "asd");
 
-console.log(nomeCompleto);
+console.log(fullName);
 
 console.log(typeof "5.292929");
 
-var frase = 'Esta é uma frase complexa';
+var phrase = 'This is a complex phrase';
 
-console.log(frase);
-console.log(typeof frase);
+console.log(phrase);
+console.log(typeof phrase);
 
-console.log(nome + " " + frase);
+console.log(name + " " + phrase);
 
-document.write('Ele disse: "Olá"');
+document.write('He said, "Hello."');
 
-document.write("Ele disse: 'Olá'");
+document.write("He said: 'Hello'");
 
-console.log("Este número: " + nome);
+console.log("This number: " + name);
