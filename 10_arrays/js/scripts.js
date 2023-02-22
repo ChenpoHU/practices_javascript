@@ -13,6 +13,6 @@ arr[4] = 10;
 
 arr[0] = "Test";
 
-console.log(arr);
+console.log(arr); //[Test, "Matheus", true, {test: 1, test: 2} ,10]
 
 console.log(typeof arr); //array
