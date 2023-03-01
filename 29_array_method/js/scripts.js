@@ -5,18 +5,21 @@ console.log(arr.length);
 
 // push
 arr.push(6);
-arr.push('Qualquer coisa');
+arr.push('Anything');
+arr.push('new');
 
 console.log(arr);
+console.log(arr.reverse());
 
 // pop
+arr.pop();
 arr.pop();
 
 console.log(arr);
 
 // unshift
 arr.unshift(0);
-arr.unshift('teste');
+arr.unshift('test');
 
 console.log(arr);
 
@@ -25,8 +28,8 @@ arr.shift();
 
 console.log(arr);
 
-// acessar o último elemento
-console.log(arr[arr.length - 1]);
+// access the second last element
+console.log(arr[arr.length - 2]);
 
 // isArray
 console.log(Array.isArray(5));

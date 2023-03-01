@@ -1,33 +1,33 @@
-var teste = 5;
+var test = 5;
 
 console.log(this);
-console.log(this.teste);
-console.log(teste);
+console.log(this.test);
+console.log(test);
 
 let pessoa = {
-  nome: "Matheus",
+  name1: "Matheus",
   idade: 29,
   falar: function() {
     console.log("Olá, tudo bem?");
   },
-  dizerNome: function() {
-    console.log("O meu nome é " + this.nome);
+  dizername1: function() {
+    console.log("O meu name1 é " + this.name1);
   },
   aniversario: function() {
     this.idade += 1;
   },
   saudacao: function() {
-    return 'Sr. ' + this.nome;
+    return 'Sr. ' + this.name1;
   }
 };
 
-pessoa.dizerNome();
+pessoa.dizername1();
 
 console.log(pessoa.idade);
+for (x=0; x<=2; x+= 1){
+  pessoa.aniversario();
 
-pessoa.aniversario();
-pessoa.aniversario();
-pessoa.aniversario();
+}
 
 console.log(pessoa.idade);
 

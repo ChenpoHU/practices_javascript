@@ -1,13 +1,13 @@
 var idade = 12;
-var nome = "João";
+var name1 = "João";
 
-if(nome == "João" || idade > 14) {
+if(name1 == "João" || idade > 14) {
   console.log("You can join the fencing class");
 } else {
   console.log("can't enter");
 }
 
-if(nome == "Pedro" && (30 > 20 || 10 == 10)) {
+if(name1 == "Pedro" && (30 > 20 || 10 == 10)) {
   console.log("testing");
 } else {
   console.log("did not enter");

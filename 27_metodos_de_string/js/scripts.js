@@ -1,29 +1,29 @@
 // length
 
-var nome = "Matheus";
+var name1 = "Matheus";
 
-console.log(nome.length);
+console.log(name1.length);
 
 var obj = "bola";
 
-console.log(obj.length);
+console.log(obj.toUpperCase());
 
 // indexOf
 
-console.log(nome[2]);
+console.log(name1[2]);
 
-var frase = "O rato roeu a roupa do rei de Roma";
+var phrase = "The rat gnawed the clothes of the king of Rome";
 
-console.log(frase.indexOf("roeu"));
+console.log(phrase.indexOf("gnawed"));
 
 // slice
 
-var roeu = frase.slice(7, 11);
+var gnawed = phrase.slice(8, 13);
 
-console.log(roeu);
+console.log(gnawed);
 
 // replace
 
-var novaFrase = frase.replace("roeu", "teste");
+var newphrase = phrase.replace("gnawed", "test");
 
-console.log(novaFrase);
+console.log(newphrase);

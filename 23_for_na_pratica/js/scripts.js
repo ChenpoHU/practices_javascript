@@ -1,4 +1,4 @@
-var lista = ['Laranja', 'Maçã', 'Pera', 'Jaca', 'Limão'];
+var lista = ['Laranja: Orange', 'Maçã: Apple', 'Pera: Pear', 'Jaca: Jackfruit', 'Limão: Lemon'];
 
 var listaUl = document.createElement('ul');
 

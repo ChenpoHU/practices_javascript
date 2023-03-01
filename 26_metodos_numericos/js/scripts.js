@@ -14,7 +14,7 @@ console.log(23.51515165.toFixed(1));
 
 // isNaN
 
-console.log(isNaN("teste"));
+console.log(isNaN("test"));//true
 console.log(isNaN(12));
 console.log(isNaN("14"));
 
@@ -23,4 +23,4 @@ console.log(isNaN("14"));
 console.log(Number.MAX_VALUE);
 console.log(Number.MIN_VALUE);
 
-console.log(2.7976931348623157e+308);
+console.log(2.7976931348623157e+308);//Infinity

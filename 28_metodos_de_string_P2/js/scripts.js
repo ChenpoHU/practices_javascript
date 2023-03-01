@@ -1,26 +1,26 @@
 // toLowerCase e toUpperCase
 
-var frase = "Esta é a frase que vamos manipular";
+var phrase = "This is the phrase that we are going to manipulate";
 
-var fraseCaixaAlta = frase.toUpperCase();
+var phraseCapsLock = phrase.toUpperCase();
 
-console.log(fraseCaixaAlta);
+console.log(phraseCapsLock);
 
-console.log(fraseCaixaAlta.toLowerCase());
+console.log(phraseCapsLock.toLowerCase());
 
 
 // trim
 
-var nome = "        Matheus     ";
+var name1 = "        Matheus     ";
 
-var nomeTrim = nome.trim();
+var name1Trim = name1.trim();
 
-console.log(nome);
-console.log(nomeTrim);
+console.log(name1);
+console.log(name1Trim);
 
 // split
 
-console.log(frase.split(" "));
+console.log(phrase.split(" "));
 
 var tags = "PHP, JavaScript, HTML, CSS";
 
@@ -28,8 +28,10 @@ console.log(tags.split(", "));
 
 // lastIndexOf
 
-var fraseDois = "Eu quero a última palavra teste desta frase de teste";
+var phrasetwo = "I want the last test word of this test phrase";
 
-console.log(fraseDois.indexOf("teste"));
+console.log(phrasetwo.indexOf("test"));
 
-console.log(fraseDois.lastIndexOf("teste"));
+console.log(phrasetwo.lastIndexOf("test"));
+
+console.log(phrasetwo.split(" "));

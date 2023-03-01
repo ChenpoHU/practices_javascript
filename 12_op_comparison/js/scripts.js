@@ -15,13 +15,13 @@ if(possuiCarro) {
   console.log("The user can now ride a car");
 }
 
-var nome = "Matheus";
+var name1 = "Matheus";
 
-if(nome == "Matheus") {
+if(name1 == "Matheus") {
   console.log("His name is Matheus");
 }
 
-if(nome != "Matheus") {
+if(name1 != "Matheus") {
   console.log("The name is not Matheus");
 }
 

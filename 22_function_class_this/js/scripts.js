@@ -35,17 +35,17 @@ mary.speak("I am a cat");
 mary.eat("rat");
 
 
-function soma(a, b) {
-  var soma = a + b;
-  return soma;
+function add(a, b) {
+  var add = a + b;
+  return add;
 }
 
-var somaUm = soma(2, 5);
+var addUm = add(2, 5);
 
-console.log(somaUm);
+console.log(addUm);
 
-var somaDois = soma(5, 5);
+var addtwo = add(5, 5);
 
-console.log(somaDois);
+console.log(addtwo);
 
-console.log(soma(4, 5));
+console.log(add(4, 5));
