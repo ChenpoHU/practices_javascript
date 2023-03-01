@@ -1,25 +1,25 @@
-var nome = "Xavier";
+var name1 = "Xavier";
 
-if(nome == "Pedro") {
-  console.log("O nome dele é Pedro");
-} else if(nome == "Matheus") {
-  console.log("O nome é Matheus");
-} else if(nome == "Xavier") {
-  console.log("O nome é Xavier");
+if(name1 == "Pedro") {
+  console.log("His name is Pedro");
+} else if(name1 == "Matheus") {
+  console.log("The name is Matheus");
+} else if(name1 == "Xavier") {
+  console.log("The name is Xavier");
 } else {
-  console.log("Ele possui outro nome!");
+  console.log("He has another name!");
 }
 
-var idade = 19;
+var age = 19;
 
-if(idade > 20) {
-  console.log("Ele pode entrar na festa!");
-} else if(idade >= 18) {
-  console.log("Ele só pode entrar com autorização");
+if(age > 20) {
+  console.log("He can join the party!");
+} else if(age >= 18) {
+  console.log("He can only enter with authorization");
 }
 
-if(nome == "Matheus") {
-  console.log("teste");
+if(name1 == "Matheus") {
+  console.log("test");
 } else {
-  console.log("testando");
+  console.log("testing");
 }

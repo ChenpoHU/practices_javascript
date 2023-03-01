@@ -1,9 +1,9 @@
 var numero = 4;
 
 if(numero === '5') {
-  console.log("O numero é 5");
+  console.log("The numer is 5");
 }
 
 if(numero !== 5) {
-  console.log("Não é o número 5 do tipo number");
+  console.log("This is not number 5 of type number");
 }
