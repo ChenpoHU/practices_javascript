@@ -1,17 +1,17 @@
 var x = 1;
 var y = 2;
 
-// soma
+// add
 console.log(x = x + y);
 console.log(x += y);
 
-// subtracao
+// sub
 console.log(x -= y);
 
-// multiplicação
+// mul
 console.log(x *= y);
 
-// divisão
+// div
 console.log(x /= y);
 
 // loops

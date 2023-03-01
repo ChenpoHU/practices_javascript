@@ -2,11 +2,24 @@ var lista = ['Laranja', 'Maçã', 'Pera', 'Jaca', 'Limão'];
 
 var listaUl = document.createElement('ul');
 
+var text = "Everybody want to be in this rank!";
+
+var textUl = document.createElement('p');
+
 var body = document.getElementsByTagName('body');
 
 // console.log(body[0]);
 
 body[0].appendChild(listaUl);
+
+body[0].appendChild(textUl);
+
+var pNoBody = document.getElementsByTagName('p');
+
+var texttoP = document.createTextNode(text);
+
+pNoBody[0].appendChild(texttoP);
+
 
 var listaNoBody = document.getElementsByTagName('ul');
 

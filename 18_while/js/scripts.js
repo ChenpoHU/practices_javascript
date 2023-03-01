@@ -4,7 +4,7 @@ while(x <= 5) {
 
   console.log("testing repitition " + x);
 
-  // incremetador
+  // incrementador
   x++;
 
 }

@@ -8,7 +8,7 @@ for(var i = 10; i > 0; i--) {
 
 }
 
-console.log("Deu o break");
+console.log("Ten to break");
 
 var x = 10;
 
@@ -21,6 +21,6 @@ while(x < 100) {
     continue;
   }
 
-  console.log("Testando continue " + x);
+  console.log("Testing continue " + x);
 
 }
